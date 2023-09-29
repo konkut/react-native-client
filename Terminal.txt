@@ -1,0 +1,51 @@
+
+npx create-expo-app .
+npx expo start
+
+//BOTOM SHEET DE TWITER
+//npm add @gorhom/bottom-sheet
+//npx expo install react-native-reanimated react-native-gesture-handler
+
+npm add @gorhom/bottom-sheet@^4
+npm add react-native-reanimated react-native-gesture-handler
+expo install react-native-reanimated react-native-gesture-handler
+npm add react-native-gesture-handler
+npm install --save react-native-gesture-handler
+
+web
+npm add @babel/plugin-proposal-export-namespace-from
+
+CONFIGURAMOS EL ARCHIVO BABEL.CONFIG.JS
+plugins: [
+  '@babel/plugin-proposal-export-namespace-from',
+  'react-native-reanimated/plugin',
+],
+yarn start --reset-cache
+npm start -- --reset-cache
+expo start -c
+
+npm start --tunnel  
+
+
+
+
+2304  sudo iptables -P INPUT DROP
+ 2305  sudo iptables -P FORWARD DROP
+ 2310  ^[[200~sudo iptables -A INPUT -p tcp --dport 3000 -j ACCEPT
+ 2313  sudo iptables-save > /etc/iptables/rules.v4
+ 2314  ip addr show\n
+ 2315  ifconfig
+ 2316  firewall-cmd --list-all
+ 2317  firewall-cmd --list-units
+ 2318  firewall-cmd --list-unit
+ 2319  firewall-cmd list-unit
+ 2320  firewall-cmd 
+ 2321  sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT\n
+ 2322  sudo iptables -P INPUT ACCEPT
+ 2323  sudo iptables -P FORWARD ACCEPT
+ 2324  sudo iptables -P OUTPUT ACCEPT
+ 2325  ^[[200~sudo iptables -A INPUT -p tcp --dport 19000 -j ACCEPT
+ 2326  sudo iptables -A INPUT -p tcp --dport 19000 -j ACCEPT
+ 2327  sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+ 2328  sudo iptables -A OUTPUT -p tcp --dport 8080 -j ACCEPT
+ 2329  sudo iptables -A OUTPUT -p tcp --dport 19000 -j ACCEPT
